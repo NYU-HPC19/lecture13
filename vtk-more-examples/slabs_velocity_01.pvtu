@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<VTKFile type="PUnstructuredGrid" version="0.1" compressor="vtkZLibDataCompressor" byte_order="LittleEndian">
+  <PUnstructuredGrid GhostLevel="0">
+    <PPointData>
+        <PDataArray type="Float32" Name="velocity" NumberOfComponents="3" format="binary"/>
+    </PPointData>
+    <PCellData>
+    </PCellData>
+    <PPoints>
+      <PDataArray type="Float32" NumberOfComponents="3" format="binary"/>
+    </PPoints>
+    <Piece Source="slabs_velocity_01_0000.vtu"/>
+    <Piece Source="slabs_velocity_01_0001.vtu"/>
+    <Piece Source="slabs_velocity_01_0002.vtu"/>
+    <Piece Source="slabs_velocity_01_0003.vtu"/>
+  </PUnstructuredGrid>
+</VTKFile>
